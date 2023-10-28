@@ -16,6 +16,12 @@
   	<description></description>
   	<servlet-class>Controlador.ControladorServletEmpleado</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ServletCliente</servlet-name>
+  	<display-name>ServletCliente</display-name>
+  	<description></description>
+  	<servlet-class>Controlador.ServletCliente</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Controlador</servlet-name>
   	<url-pattern>/Controlador</url-pattern>
@@ -23,5 +29,9 @@
   <servlet-mapping>
   	<servlet-name>ControladorServletEmpleado</servlet-name>
   	<url-pattern>/ControladorServletEmpleado</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletCliente</servlet-name>
+  	<url-pattern>/ServletCliente</url-pattern>
   </servlet-mapping>
 </web-app>
